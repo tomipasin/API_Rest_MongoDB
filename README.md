@@ -25,9 +25,3 @@ npm start
 
 Usamos aqui o nodemon que fica verificando se há alterações no código e reinicia o servidor automaticamente.
 
-### server.js
-
-<script src="https://gist.github.com/tomipasin/690b00a0c5ac07b5c00aa806ea63d3b8.js"></script>
-
-
-
