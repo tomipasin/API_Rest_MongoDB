@@ -31,4 +31,7 @@ Inicialmente tu deve editar o arquivo /src/database/config.js:
 
 <img src="https://tomipasin.com/diversos/configdatabase.svg" />
 
+Feito isso tu já deve ser capaz de fazer as operações do CRUD na tua base de dados. 
+O server.js é o responsável por tratar do uso do express, conectar na nossa base de dados e também trabalhar com as rotas do projeto. O código está todo comentado:
 
+<img src="https://tomipasin.com/diversos/server.svg" />
