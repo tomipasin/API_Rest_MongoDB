@@ -29,6 +29,6 @@ Usamos aqui o nodemon que fica verificando se há alterações no código e rein
 
 Inicialmente tu deve editar o arquivo /src/database/config.js: 
 
-<img src="https://tomipasin.com/diversos/configdatabase.png" />
+<img src="https://tomipasin.com/diversos/configdatabase.svg" />
 
 
