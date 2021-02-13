@@ -35,3 +35,18 @@ Feito isso tu já deve ser capaz de fazer as operações do CRUD na tua base de 
 O server.js é o responsável por tratar do uso do express, conectar na nossa base de dados e também trabalhar com as rotas do projeto. O código está todo comentado:
 
 <img src="https://tomipasin.com/diversos/server.svg" />
+
+
+O nosso arquivo routes.js vai tratar do roteamento de cada tipo de requisição:
+
+<img src="https://tomipasin.com/diversos/routes.svg" />
+
+ContatosController.js é onde determinamos as operações no MongoDB:
+
+<img src="https://tomipasin.com/diversos/controller.svg" />
+
+O arquivo Contatos.js tem a função de criar um schema para os nossos dados, além do model que vai determinar, dentre outras coisas, em que coleção estes dados serão inseridos:
+
+<img src="https://tomipasin.com/diversos/contatos.svg" />
+
+Desta forma nosso CRUD em MOngoDB usando express e mongoose está completo.
