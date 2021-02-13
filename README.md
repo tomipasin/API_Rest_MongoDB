@@ -5,6 +5,8 @@ Um modelo simples de API Rest fazendo CRUD usando Node.js, Express e MongoDB.
 Basicamente as quatro operações do CRUD em um banco de dados noSQL MongoDB com métodos HTTP:
 
 <img src="https://tomipasin.com/diversos/CRUD.jpg" />
+<hr/>
+<img src="https://tomipasin.com/diversos/httpcrud.png" />
 
 ## Como faz?
 Usei o Mongoose e express como forma de fazer o Node interagir com o Mongo.
