@@ -52,3 +52,5 @@ O arquivo Contatos.js tem a função de criar um schema para os nossos dados, al
 <img src="https://tomipasin.com/diversos/contatos.svg" />
 
 Desta forma nosso CRUD em MOngoDB usando express e mongoose está completo.
+
+Qualquer duvida é só me chamar em tomipasin@gmail.com ou no Telegram em @tomipasin.
