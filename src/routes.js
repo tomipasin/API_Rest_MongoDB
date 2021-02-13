@@ -17,5 +17,13 @@ routes.get("/contatos", ContatosController.index);
 //pega os dados da requisição e faz um create(req.body) guardando os dados no db.
 routes.post("/contatos", ContatosController.store);
 
+//para atualizar um dado do nosso db vamos usar o put, que neste caso chama
+//a função update lá em ContatosController.
+routes.put("/contatos", ContatosController.update);
+
+//Para completar o nosso CRUD precisamos do D ou delete. 
+//Mesmo processo: routes.delete chama a async delete lá em Contatos Controller.
+routes.delete("/contatos", ContatosController.delete);
+
 //tudo feito é só exportar.
 module.exports = routes;
