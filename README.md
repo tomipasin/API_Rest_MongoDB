@@ -29,7 +29,7 @@ Usamos aqui o nodemon que fica verificando se há alterações no código e rein
 
 Inicialmente tu deve editar o arquivo /src/database/config.js: 
 
-
+{% gist 690b00a0c5ac07b5c00aa806ea63d3b8 %}
 <script src="https://gist.github.com/tomipasin/690b00a0c5ac07b5c00aa806ea63d3b8.js"></script>
 
 
