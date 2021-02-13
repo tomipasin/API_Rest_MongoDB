@@ -53,9 +53,21 @@ O arquivo Contatos.js tem a função de criar um schema para os nossos dados, al
 
 Desta forma nosso CRUD em MOngoDB usando express e mongoose está completo e você pode usar o método que preferir para fazer as requisições. Como exemplo usarei o Insomnia, mas você pode usar o Postman ou criar uma interface para isso.
 
-### POST:
+### POST (CREATE):
 
 <img src="https://tomipasin.com/diversos/POST.png" />
+
+### GET (READ):
+
+<img src="https://tomipasin.com/diversos/GET.png" />
+
+### PUT (UPDATE):
+
+<img src="https://tomipasin.com/diversos/PUT.png" />
+
+### DELETE (DELETE):
+
+<img src="https://tomipasin.com/diversos/DELETE.png" />
 
 
 Qualquer duvida é só me chamar em tomipasin@gmail.com ou no Telegram em @tomipasin.
