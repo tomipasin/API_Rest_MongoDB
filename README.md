@@ -4,9 +4,9 @@ Um modelo simples de API Rest fazendo CRUD usando Node.js, Express e MongoDB.
 ## O que faz?
 Basicamente as quatro operações do CRUD em um banco de dados noSQL MongoDB com métodos HTTP:
 
-<img src="https://tomipasin.com/diversos/CRUD.jpg" />
+<img src="https://tomipasin.com/assets/img/CRUD.jpg" />
 <hr/>
-<img src="https://tomipasin.com/diversos/httpcrud.png" />
+<img src="https://tomipasin.com/assets/img/httpcrud.png" />
 
 ## Como faz?
 Usei o Mongoose e express como forma de fazer o Node interagir com o Mongo.
@@ -31,43 +31,43 @@ Usamos aqui o nodemon que fica verificando se há alterações no código e rein
 
 Inicialmente tu deve editar o arquivo /src/database/config.js: 
 
-<img src="https://tomipasin.com/diversos/configdatabase.svg" />
+<img src="https://tomipasin.com/assets/img/configdatabase.svg" />
 
 Feito isso tu já deve ser capaz de fazer as operações do CRUD na tua base de dados. 
 O server.js é o responsável por tratar do uso do express, conectar na nossa base de dados e também trabalhar com as rotas do projeto. O código está todo comentado:
 
-<img src="https://tomipasin.com/diversos/server.svg" />
+<img src="https://tomipasin.com/assets/img/server.svg" />
 
 
 O nosso arquivo routes.js vai tratar do roteamento de cada tipo de requisição:
 
-<img src="https://tomipasin.com/diversos/routes.svg" />
+<img src="https://tomipasin.com/assets/img/routes.svg" />
 
 ContatosController.js é onde determinamos as operações no MongoDB:
 
-<img src="https://tomipasin.com/diversos/controller.svg" />
+<img src="https://tomipasin.com/assets/img/controller.svg" />
 
 O arquivo Contatos.js tem a função de criar um schema para os nossos dados, além do model que vai determinar, dentre outras coisas, em que coleção estes dados serão inseridos:
 
-<img src="https://tomipasin.com/diversos/contatos.svg" />
+<img src="https://tomipasin.com/assets/img/contatos.svg" />
 
 Desta forma nosso CRUD em MOngoDB usando express e mongoose está completo e você pode usar o método que preferir para fazer as requisições. Como exemplo usarei o Insomnia, mas você pode usar o Postman ou criar uma interface para isso.
 
 ### POST (CREATE):
 
-<img src="https://tomipasin.com/diversos/POST.png" />
+<img src="https://tomipasin.com/assets/img/POST.png" />
 
 ### GET (READ):
 
-<img src="https://tomipasin.com/diversos/GET.png" />
+<img src="https://tomipasin.com/assets/img/GET.png" />
 
 ### PUT (UPDATE):
 
-<img src="https://tomipasin.com/diversos/PUT.png" />
+<img src="https://tomipasin.com/assets/img/PUT.png" />
 
 ### DELETE (DELETE):
 
-<img src="https://tomipasin.com/diversos/DELETE.png" />
+<img src="https://tomipasin.com/assets/img/DELETE.png" />
 
 
 Qualquer duvida é só me chamar em tomipasin@gmail.com ou no Telegram em @tomipasin.
